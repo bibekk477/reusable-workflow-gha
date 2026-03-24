@@ -5,6 +5,6 @@ on:
 
 jobs:
   call-greeting:
-    uses: ./.github/workflows/reusable.yaml
+    uses: ./.github/workflows/reusable.yaml # ensure resuable workflow and the calling workflow are in the same repository
     with:
       name: "bibek karki"
